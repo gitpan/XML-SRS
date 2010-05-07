@@ -8,6 +8,7 @@ inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/XML/SRS.pm
+lib/XML/SRS/#Registrar.pm#
 lib/XML/SRS/ACL.pm
 lib/XML/SRS/ACL/Entry.pm
 lib/XML/SRS/ACL/Query.pm
@@ -15,6 +16,7 @@ lib/XML/SRS/Action.pm
 lib/XML/SRS/ActionResponse.pm
 lib/XML/SRS/Audit.pm
 lib/XML/SRS/AuditDetails.pm
+lib/XML/SRS/Changes.pod
 lib/XML/SRS/Contact.pm
 lib/XML/SRS/Contact/Address.pm
 lib/XML/SRS/Contact/Address/Filter.pm
@@ -50,6 +52,7 @@ lib/XML/SRS/TimeStamp/Role.pm
 lib/XML/SRS/Types.pm
 lib/XML/SRS/UDAIValid.pm
 lib/XML/SRS/UDAIValid/Query.pm
+lib/XML/SRS/Version.pm
 lib/XML/SRS/Whois.pm
 lib/XML/SRS/Zone.pm
 lib/XML/SRS/Zone/List.pm
@@ -58,6 +61,7 @@ MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
 README
+SIGNATURE
 SubmittingPatches
 t/00-load.t
 t/01-create-domain.t
@@ -90,5 +94,4 @@ t/24-xml-draft-nzrs-srs-01/acl-test-cases/02-lookup-client-cert-domain.xml
 t/90-pod-syntax.t
 t/91-pod-coverage.t
 t/92-license.t
-t/93-perltidy.t
 t/XMLTests.pm

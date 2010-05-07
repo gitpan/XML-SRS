@@ -1,0 +1,119 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 5ebf20e77850b956f9f03833932a7005ba59f0d9 COPYING.txt
+SHA1 e3cd7425f180254844a51c80a1e81b304ae69f1e MANIFEST
+SHA1 80559a97f45a9829d2b5fc9a70bb384ae3bb32d4 MANIFEST.SKIP
+SHA1 7d4c46a92cc6e207c9327d522594d372ca5ebfa1 META.yml
+SHA1 737f6b82cfb2391b53fbff88cc1ff9e8de08b786 Makefile.PL
+SHA1 f70fd7e27ca116a659df6121c69c42ba1c170266 README
+SHA1 491d0d25dba5bf47edf92e065ddbca913b5d0c50 SubmittingPatches
+SHA1 1ebec4119486a032a5612a403e8d7b7be973e938 inc/Module/Install.pm
+SHA1 24038af925a69df41972971356ccce885b0fe2ad inc/Module/Install/Base.pm
+SHA1 8f96eddfef548c9328457fbb17a121631cda356b inc/Module/Install/Can.pm
+SHA1 ec29048e48edd9c9c55f9de7b773bd7c904335ad inc/Module/Install/Fetch.pm
+SHA1 0384525d85d51e99532e3ad8729d870113646d14 inc/Module/Install/Makefile.pm
+SHA1 38c657de4d91f5a60ff8e6c6f6a5547daf7c4ab2 inc/Module/Install/Metadata.pm
+SHA1 5c25f1104c0038041e3b93e0660c39171e4caf2b inc/Module/Install/Win32.pm
+SHA1 94d47349c803c4bd2a9230d25e4db0b6aaf1acd8 inc/Module/Install/WriteAll.pm
+SHA1 b963f2f8d68057c6b4bc6354eb949b8b22619dcc lib/XML/SRS.pm
+SHA1 0b435ed164406b32c2a327e30d969d165ce5a72b lib/XML/SRS/#Registrar.pm#
+SHA1 d43c1947cca0112264125b99e9f91d74674d0800 lib/XML/SRS/ACL.pm
+SHA1 f703c75e67f81cd3af0056eba8037a1f624c2137 lib/XML/SRS/ACL/Entry.pm
+SHA1 bf5c08049600cefdc8e1bc6cabd2a651eb721a0b lib/XML/SRS/ACL/Query.pm
+SHA1 76ddc0305f170df3f9912b316f60a98fee1628b3 lib/XML/SRS/Action.pm
+SHA1 c9e10fdc52c8c981d9295676292031e571b93b43 lib/XML/SRS/ActionResponse.pm
+SHA1 652c49c5d5b910c27b6b1680ab1be74f774b9173 lib/XML/SRS/Audit.pm
+SHA1 b430e6be39066247f0a4f495b2d931cd9e33ff12 lib/XML/SRS/AuditDetails.pm
+SHA1 2291f68585b06a81f804ca422fb509b3fc09d57c lib/XML/SRS/Changes.pod
+SHA1 3ca38a6bee75ee59f8728e34db1eab9e7a53e157 lib/XML/SRS/Contact.pm
+SHA1 61ef259decfc5f67f58a16bad66726f9822c09eb lib/XML/SRS/Contact/Address.pm
+SHA1 edcc1d6b939924129bb618754be9f01a12bb4ffb lib/XML/SRS/Contact/Address/Filter.pm
+SHA1 e98ee2f6c3e5ec091cd89d98ce17f378bbbe72d1 lib/XML/SRS/Contact/Filter.pm
+SHA1 6533aeefb58146d736b0fad3e756cb3964411637 lib/XML/SRS/Contact/PSTN.pm
+SHA1 a4860f52c535477bae0e50d9f2499f077ea910ba lib/XML/SRS/Date.pm
+SHA1 6cb664b228c37929e7de39579debe70b06d3f87f lib/XML/SRS/Date/Range.pm
+SHA1 91ca0b974792fb5b8e8480df5e3ade9df34028f4 lib/XML/SRS/Domain.pm
+SHA1 083cd6519186d6c8097af6f816132b71dc519afe lib/XML/SRS/Domain/Create.pm
+SHA1 675dcf2972e65afb2a1cad1592da461f6740a95e lib/XML/SRS/Domain/Query.pm
+SHA1 5af95437aaf942a9bb2e04fff3290575865d2776 lib/XML/SRS/Domain/Update.pm
+SHA1 2c49ed27cd8390989ed1ecca1f9812e3c22e8e57 lib/XML/SRS/Error.pm
+SHA1 8b2aa68c5af7ef3e28dbf509a97b8eca0510b860 lib/XML/SRS/FieldList.pm
+SHA1 14ba1c4ced5958ffec8f846e6710a688926f27ad lib/XML/SRS/Keyring.pm
+SHA1 255d25a82d21f6a0571b465d7387c019dff4480b lib/XML/SRS/Node.pm
+SHA1 91fc666631c403feab7d806fc2e17b2ae7135168 lib/XML/SRS/Password.pm
+SHA1 bffbcbefa276fef5a109964321a1c5674144aa4c lib/XML/SRS/Query.pm
+SHA1 2e096e6e199d8f24e4c1738b8ee77244eb77b17a lib/XML/SRS/Registrar.pm
+SHA1 fd1c3bdb92942440ca1e8eb902be30212132378f lib/XML/SRS/Registrar/Query.pm
+SHA1 09961f99d369ec7dd535d18b258ab5e5fafe6f34 lib/XML/SRS/Request.pm
+SHA1 d8d68a842c6fcd8937ed888ecda984e3dcfb3951 lib/XML/SRS/Response.pm
+SHA1 a4f70ff8b71d5d11f2e1c83929bd2143c1b3c30a lib/XML/SRS/Result.pm
+SHA1 152523ba9c14562779dd4e6aabb268b8ec366e71 lib/XML/SRS/Role.pm
+SHA1 92492a66af65efb33f5083d7a0cf4284d7690495 lib/XML/SRS/Role/List.pm
+SHA1 842b41e368bf3d6b0d767c04c8b9d3c413e5d9c9 lib/XML/SRS/Server.pm
+SHA1 b2fbbd9477eeb283805231a7b48ccd2dcf13ad1f lib/XML/SRS/Server/Filter.pm
+SHA1 2c7e9d2f5aeb8cb14337dbc524e67b6b90dbc570 lib/XML/SRS/Server/Filter/List.pm
+SHA1 735b614e21379c6a5c09dd196f8e4d1f7c178946 lib/XML/SRS/Server/List.pm
+SHA1 842f0e3e10300bb08e87fdf4459463b5d60410a3 lib/XML/SRS/Time.pm
+SHA1 b82364087da48cd929931dd737c9b3f24e9d3d2d lib/XML/SRS/TimeStamp.pm
+SHA1 919808a23062e472dfca22fc6aeef92af339ecd6 lib/XML/SRS/TimeStamp/Role.pm
+SHA1 fd45fd50d9b8d164931c903caa282ad5f07a992c lib/XML/SRS/Types.pm
+SHA1 2cef088d55ccf290372f7314395669d8978f654a lib/XML/SRS/UDAIValid.pm
+SHA1 6042d85dd2ae21723351ceb193b76d6b80543bc7 lib/XML/SRS/UDAIValid/Query.pm
+SHA1 61c1a9ba66dae716aabdb0b6abad375f158c3801 lib/XML/SRS/Version.pm
+SHA1 a0d4cd079c277eb2d2cf6eb0573345ca85fff2f1 lib/XML/SRS/Whois.pm
+SHA1 85302ef07800445e579385605a8d744b8fedcdb4 lib/XML/SRS/Zone.pm
+SHA1 46f278e43328d40c9ec0f266bf71caa80addbed5 lib/XML/SRS/Zone/List.pm
+SHA1 d269c1ff092cdb1d4167c8eb02ed02ba089f75f7 lib/XML/SRS/protocol.rnc
+SHA1 2253068b30428cebd5c1fc2c0abd6a9f51c22308 t/00-load.t
+SHA1 90ce54ac587306dbb2fad7f8b0d952b0ac7543f5 t/01-create-domain.t
+SHA1 bfedb004c3e6107a76cb7cef894e8ac374899045 t/24-xml-draft-nzrs-srs-01.t
+SHA1 bb2d86de3831078a31e70fb51f80a24d53f9ec75 t/24-xml-draft-nzrs-srs-01/01-Whois-Real-Resp.xml
+SHA1 278e50ed0d5f12de0bc3ed391e1c5191ff9ee52a t/24-xml-draft-nzrs-srs-01/01-Whois-Real.xml
+SHA1 dc2ad1ffa22aa2663bffbc7e06ba9186f1bde134 t/24-xml-draft-nzrs-srs-01/01-whois.xml
+SHA1 1db6da99182c004bff1c0d7bc7f4b9989e773d19 t/24-xml-draft-nzrs-srs-01/02-whois-rs.xml
+SHA1 8bc143f8c0e3ed708adef9d56791f64ce026bf43 t/24-xml-draft-nzrs-srs-01/03-error-business.xml
+SHA1 0973346e920dfdf4bdcd45a5063558c0bde13dc6 t/24-xml-draft-nzrs-srs-01/04-error-xmlunwell.xml
+SHA1 53414062e3bde47f70df883531511d7161137a15 t/24-xml-draft-nzrs-srs-01/05-acl-whois-rs.xml
+SHA1 c2c6c8517cd7f6d7c5a58361d950f95386c20056 t/24-xml-draft-nzrs-srs-01/06-epplogin.xml
+SHA1 2c708e99888255b7e35725bad01934a1ed90d5d5 t/24-xml-draft-nzrs-srs-01/07-epplogin-rs.xml
+SHA1 7ae17a71c91564daf0c3829fd5a45a2d8a8f82ce t/24-xml-draft-nzrs-srs-01/08-DomainCreate-Real-Resp.xml
+SHA1 451603035dbebbcaea30317f54c369784349f088 t/24-xml-draft-nzrs-srs-01/08-DomainCreate-Real.xml
+SHA1 435bb0cdee5a4f62ce069a3ce2ae9bd59a5a931e t/24-xml-draft-nzrs-srs-01/08-domaincreate.xml
+SHA1 90b92e77923ea556ac545d694ee5fe58628e396b t/24-xml-draft-nzrs-srs-01/10-domainupdate.xml
+SHA1 9740859b5f012348a73da952807f6149f4d172e1 t/24-xml-draft-nzrs-srs-01/11-DomainUpdateResponse.xml
+SHA1 1a0daa622e6508f5365deac5729a7385d39e8d95 t/24-xml-draft-nzrs-srs-01/12-DomainDetailsQry-Empty.xml
+SHA1 18c75e7b8a7d4ad9bc37682166d8d94d2417cfc4 t/24-xml-draft-nzrs-srs-01/12-DomainDetailsQry-Moderate.xml
+SHA1 8a8bee919913ef7f2f2bb7dbb9e860d06f2c8cb5 t/24-xml-draft-nzrs-srs-01/12-DomainDetailsQry-Real-Resp.xml
+SHA1 f47ef70b301e3b7c0b6a24f7cf1ecf39142cdcd7 t/24-xml-draft-nzrs-srs-01/12-DomainDetailsQry-Real.xml
+SHA1 a4c5edbf7a4cdb772a4541991bea0690add56af4 t/24-xml-draft-nzrs-srs-01/12-DomainDetailsQry-Real2-Resp.xml
+SHA1 b407e21317e7772b878d4c1ad230a8acb70c6e8a t/24-xml-draft-nzrs-srs-01/12-DomainDetailsQry-Real2.xml
+SHA1 a5b8fe32bfa7bb2cf3ba908e3ec0ade12213b971 t/24-xml-draft-nzrs-srs-01/12-DomainDetailsQry-Simple.xml
+SHA1 e1db85661886732d61ffecc5aef09a0fe8cd83fb t/24-xml-draft-nzrs-srs-01/13-UDAIValidQry-Resp.xml
+SHA1 d211197c7f631ab2b88929332ba553206a525d0f t/24-xml-draft-nzrs-srs-01/13-UDAIValidQry.xml
+SHA1 0a02041d0b0773d3a94e28e6e184f41eaecf2ed4 t/24-xml-draft-nzrs-srs-01/acl-test-cases/01-lookup-client-ip.xml
+SHA1 fc6bf8d2290a7320385d0b592078050272f2d094 t/24-xml-draft-nzrs-srs-01/acl-test-cases/02-lookup-client-cert-domain.xml
+SHA1 4897b5eb6833340f84f3151f1959df5ae5e07efe t/90-pod-syntax.t
+SHA1 1b0aa297ec03576837bf66d2291907fbce73584d t/91-pod-coverage.t
+SHA1 e29db398ec80840891198c8de898bdc2b7e0ae8a t/92-license.t
+SHA1 eca58eda4d3c0533920d6af6d4398df46222c331 t/XMLTests.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvjlj4ACgkQ/AZAiGayWEO57ACfdeL0BiSWONZcfW824FWNL9Pg
+0IoAn35r2gqowmDT29uSLFo/gDOzByVQ
+=u+Wt
+-----END PGP SIGNATURE-----

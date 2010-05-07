@@ -1,7 +1,10 @@
 
 package XML::SRS;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
+
+BEGIN { our $PROTOCOL_VERSION = "5.0" };
+use XML::SRS::Version;
 
 use Moose::Role;
 use XML::SRS::Types;
@@ -87,9 +90,33 @@ updates), which was developed using XML Schema and XML Namespaces.  As
 such, the SRS protocol as a stable standard far pre-dates EPP, which
 took a further 2 years to reach 1.0 status.
 
+=head2 WARNING: SITE^WMODULE UNDER CONSTRUCTION
+
+The classes which are present, while enough to be able to parse the
+protocol specification, are not fixed in API terms until they are
+documented and tested.  Please consider any attribute which is not yet
+at least documented to be under review and subject to rename.  This is
+thought to lead to a clearer implementation than fixing attribute
+names to the somewhat random (though well-known) names used in the
+XML.  Use of C<sub BUILDARGS { }> to allow either may be considered;
+patches welcome.
+
+Similarly with undocumented portions of the implementation.  If you
+would like to make sure that the code you write against it doesn't
+need rewriting, please send a patch/pull request!
+
 This module currently implements the XML part of the protocol only;
 converting this into the HTTPS POST, with PGP signature, is still
 TO-DO.
+
+=head1 GLOBALS
+
+There is currently a C<$XML::SRS::PROTOCOL_VERSION> variable which
+includes the version of the SRS protocol parsed by the module.
+Currently, the ability to parse more than one version at a time is not
+supported, so in the event of registry protocol version changes, you
+will need to upgrade the version of L<XML::SRS> in lock-step for any
+new functionality.  This global is not exported.
 
 =head1 SOURCE, SUBMISSIONS, SUPPORT
 

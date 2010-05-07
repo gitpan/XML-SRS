@@ -19,9 +19,12 @@ no_index:
     - inc
     - t
 requires:
+  Crypt::Password: 0.05
   Moose: 0.54
   MooseX::Method::Signatures: 0
-  PRANG: 0.06
+  MooseX::Timestamp: 0
+  PRANG: 0.09
+  Regexp::Common: 0
 resources:
   license: http://opensource.org/licenses/artistic-license.php
-version: 0.01
+version: 0.02
