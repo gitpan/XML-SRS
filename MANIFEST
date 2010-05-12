@@ -37,6 +37,7 @@ lib/XML/SRS/protocol.rnc
 lib/XML/SRS/Query.pm
 lib/XML/SRS/Registrar.pm
 lib/XML/SRS/Registrar/Query.pm
+lib/XML/SRS/Registrar/Update.pm
 lib/XML/SRS/Request.pm
 lib/XML/SRS/Response.pm
 lib/XML/SRS/Result.pm
@@ -89,6 +90,7 @@ t/24-xml-draft-nzrs-srs-01/12-DomainDetailsQry-Real2.xml
 t/24-xml-draft-nzrs-srs-01/12-DomainDetailsQry-Simple.xml
 t/24-xml-draft-nzrs-srs-01/13-UDAIValidQry-Resp.xml
 t/24-xml-draft-nzrs-srs-01/13-UDAIValidQry.xml
+t/24-xml-draft-nzrs-srs-01/14-RegistrarUpdate.xml
 t/24-xml-draft-nzrs-srs-01/acl-test-cases/01-lookup-client-ip.xml
 t/24-xml-draft-nzrs-srs-01/acl-test-cases/02-lookup-client-cert-domain.xml
 t/90-pod-syntax.t

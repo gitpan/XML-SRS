@@ -1,7 +1,7 @@
 
 package XML::SRS;
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 BEGIN { our $PROTOCOL_VERSION = "5.0" };
 use XML::SRS::Version;
@@ -33,6 +33,7 @@ use XML::SRS::Audit;
 use XML::SRS::Whois;
 use XML::SRS::ACL::Query;
 use XML::SRS::Registrar::Query;
+use XML::SRS::Registrar::Update;
 use XML::SRS::Domain::Create;
 use XML::SRS::Domain::Update;
 use XML::SRS::Domain::Query;
@@ -56,6 +57,7 @@ XML::SRS - Shared Registry System XML Protocol
 =head1 SYNOPSIS
 
  my $create = XML::SRS::Domain::Create->new(
+          action_id => "thinkbig.co.nz-create-".time(),
           domain_name => "thinkbig.co.nz",
           term => 12,
           delegate => 1,
