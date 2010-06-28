@@ -29,13 +29,37 @@ subtype "${PKG}::Dollars"
 	};
 subtype "${PKG}::UID"
 	=> as "Str"; # XXX - any other constraints on ActionIDs?
+
+# a non-IDN domain name
+our $RR_re = qr/[a-zA-Z0-9](:?[a-zA-Z0-9\-]*[a-zA-Z0-9])?/;
+our $DNS_name_re = qr/(?:$RR_re\.)+$RR_re/;
 subtype "${PKG}::DomainName"
-	=> as "Str"; # FIXME - constrain this properly.
+	=> as "Str"
+	=> where {
+		m{\A$DNS_name_re\Z};
+	};
 
 subtype "${PKG}::UDAI"
 	=> as "Str"
 	=> where {
 		$_ =~ m{ \A [abcdefghjkmnpqrstuvwxyzABCDEFGHJKMNPQRSTUVWXYZ23456789]{8} \z }xms;
+	};
+
+subtype "${PKG}::HandleId"
+	=> as "PRANG::XMLSchema::token"
+	=> where {
+		# this is a subset of the EPP handle ID specification,
+		# which allows for 3-16 characters.  Here we just
+		# restrict it to "word" characters, which still allows
+		# a whole bunch of Unicode characters.  And hyphens.
+		m{\A[\p{IsWord}\- ]{3,16}\Z};
+	};
+
+subtype "${PKG}::Email"
+	=> as "Str"
+	=> where {
+		# kept as-is for historical reasons
+		m{\A(?:[^@\s]+|".*")\@$DNS_name_re\Z};
 	};
 
 subtype "${PKG}::IPv4"

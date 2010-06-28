@@ -1,13 +1,11 @@
 
-package XML::SRS::Contact;
-
+package XML::SRS::Handle;
 use Moose;
 use PRANG::Graph;
-use XML::SRS::Contact::Address;
-use XML::SRS::Contact::PSTN;
 use XML::SRS::Types;
+use PRANG::XMLSchema::Types;
 
-# handles
+# attributes
 has_attr 'handle_id' =>
 	is => "ro",
 	isa => "XML::SRS::HandleId",
@@ -15,7 +13,6 @@ has_attr 'handle_id' =>
 	predicate => "has_handle_id",
 	;
 
-# attributes
 has_attr 'name' =>
 	is => "ro",
 	isa => "Str",
@@ -30,6 +27,21 @@ has_attr 'email' =>
 	predicate => "has_email",
 	;
 
+has_attr 'action_id' =>
+	is => "ro",
+	isa => "Str",
+	xml_name => "ActionId",
+	predicate => "has_action_id",
+	;
+
+has_attr 'registrar_id' =>
+	is => 'ro',
+	isa => 'PRANG::XMLSchema::positiveInteger',
+	xml_name => 'RegistrarId',
+	xml_required => 0,
+	predicate => 'has_registrar_id',
+	;
+
 # elements
 has_element 'address' =>
 	is => "ro",
@@ -37,7 +49,6 @@ has_element 'address' =>
 	xml_nodeName => "PostalAddress",
 	predicate => "has_address",
 	coerce => 1,
-	xml_required => 0,
 	;
 
 has_element 'phone' =>
@@ -46,7 +57,6 @@ has_element 'phone' =>
 	predicate => "has_phone",
 	xml_nodeName => "Phone",
 	coerce => 1,
-	xml_required => 0,
 	;
 
 has_element 'fax' =>
@@ -55,13 +65,18 @@ has_element 'fax' =>
 	predicate => "has_fax",
 	xml_nodeName => "Fax",
 	coerce => 1,
-	xml_required => 0,
 	;
 
-with 'XML::SRS::Node';
+has_element 'audit' =>
+	is => "rw",
+	isa => "XML::SRS::AuditDetails",
+	xml_nodeName => "AuditDetails",
+	predicate => "has_audit",
+	;
 
-use Moose::Util::TypeConstraints;
-coerce __PACKAGE__
-	=> from "HashRef"
-	=> via { __PACKAGE__->new( %$_ ); };
+sub root_element {
+	"Handle";
+}
+with 'XML::SRS::ActionResponse';
+
 1;

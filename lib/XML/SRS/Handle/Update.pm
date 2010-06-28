@@ -1,33 +1,48 @@
-
-package XML::SRS::Contact;
+package XML::SRS::Handle::Update;
 
 use Moose;
 use PRANG::Graph;
-use XML::SRS::Contact::Address;
-use XML::SRS::Contact::PSTN;
 use XML::SRS::Types;
+use XML::SRS::Server::List;
+use PRANG::XMLSchema::Types;
 
-# handles
+# attributes
 has_attr 'handle_id' =>
 	is => "ro",
-	isa => "XML::SRS::HandleId",
+	isa => "Str",
 	xml_name => "HandleId",
 	predicate => "has_handle_id",
 	;
 
-# attributes
 has_attr 'name' =>
 	is => "ro",
 	isa => "Str",
 	xml_name => "Name",
+	xml_required => 0,
 	predicate => "has_name",
 	;
 
 has_attr 'email' =>
 	is => "ro",
-	isa => "XML::SRS::Email",
+	isa => "Str",
 	xml_name => "Email",
+	xml_required => 0,
 	predicate => "has_email",
+	;
+
+has_attr 'action_id' =>
+	is => "ro",
+	isa => "Str",
+	xml_name => "ActionId",
+	xml_required => 0,
+	predicate => "has_action_id",
+	;
+
+has_attr 'delete' =>
+	is => 'rw',
+	isa => 'PRANG::XMLSchema::boolean',
+	xml_name => 'Delete',
+	xml_required => 0,
 	;
 
 # elements
@@ -36,8 +51,8 @@ has_element 'address' =>
 	isa => "XML::SRS::Contact::Address",
 	xml_nodeName => "PostalAddress",
 	predicate => "has_address",
-	coerce => 1,
 	xml_required => 0,
+	coerce => 1,
 	;
 
 has_element 'phone' =>
@@ -45,8 +60,8 @@ has_element 'phone' =>
 	isa => "XML::SRS::Contact::PSTN",
 	predicate => "has_phone",
 	xml_nodeName => "Phone",
-	coerce => 1,
 	xml_required => 0,
+	coerce => 1,
 	;
 
 has_element 'fax' =>
@@ -54,14 +69,21 @@ has_element 'fax' =>
 	isa => "XML::SRS::Contact::PSTN",
 	predicate => "has_fax",
 	xml_nodeName => "Fax",
-	coerce => 1,
 	xml_required => 0,
+	coerce => 1,
 	;
 
-with 'XML::SRS::Node';
+has_element 'audit' =>
+	is => "rw",
+	isa => "XML::SRS::AuditDetails",
+	xml_nodeName => "AuditDetails",
+	xml_required => 0,
+	predicate => "has_audit",
+	;
 
-use Moose::Util::TypeConstraints;
-coerce __PACKAGE__
-	=> from "HashRef"
-	=> via { __PACKAGE__->new( %$_ ); };
+with 'XML::SRS::Audit';
+
+sub root_element { 'HandleUpdate' }
+with 'XML::SRS::Action';
+
 1;

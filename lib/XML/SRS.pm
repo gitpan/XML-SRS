@@ -1,7 +1,7 @@
 
 package XML::SRS;
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 
 BEGIN { our $PROTOCOL_VERSION = "5.0" };
 use XML::SRS::Version;
@@ -38,11 +38,15 @@ use XML::SRS::Domain::Create;
 use XML::SRS::Domain::Update;
 use XML::SRS::Domain::Query;
 use XML::SRS::UDAIValid::Query;
+use XML::SRS::Handle::Create;
+use XML::SRS::Handle::Update;
+use XML::SRS::Handle::Query;
 
 # ActionResponse types:
 use XML::SRS::Error;
 use XML::SRS::ACL;
 use XML::SRS::Domain;
+use XML::SRS::Handle;
 use XML::SRS::Registrar;
 use XML::SRS::UDAIValid;
 
