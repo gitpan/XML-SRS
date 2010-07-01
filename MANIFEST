@@ -1,3 +1,7 @@
+20-GetMessages-classic-RS.xml
+20-GetMessages-classic.xml
+21-GetMessages-queuemode-RS.xml
+21-GetMessages-queuemode.xml
 COPYING.txt
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
@@ -8,6 +12,8 @@ inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/XML/SRS.pm
+lib/XML/SRS/#Registrar.pm#
+lib/XML/SRS/AckMessage.pm
 lib/XML/SRS/ACL.pm
 lib/XML/SRS/ACL/Entry.pm
 lib/XML/SRS/ACL/Query.pm
@@ -29,11 +35,14 @@ lib/XML/SRS/Domain/Query.pm
 lib/XML/SRS/Domain/Update.pm
 lib/XML/SRS/Error.pm
 lib/XML/SRS/FieldList.pm
+lib/XML/SRS/GetMessages.pm
+lib/XML/SRS/GetMessages/TypeFilter.pm
 lib/XML/SRS/Handle.pm
 lib/XML/SRS/Handle/Create.pm
 lib/XML/SRS/Handle/Query.pm
 lib/XML/SRS/Handle/Update.pm
 lib/XML/SRS/Keyring.pm
+lib/XML/SRS/Message.pm
 lib/XML/SRS/Node.pm
 lib/XML/SRS/Password.pm
 lib/XML/SRS/protocol.rnc
@@ -60,20 +69,24 @@ lib/XML/SRS/Version.pm
 lib/XML/SRS/Whois.pm
 lib/XML/SRS/Zone.pm
 lib/XML/SRS/Zone/List.pm
+make-docs.pl
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
 README
+SIGNATURE
 SubmittingPatches
 t/00-load.t
 t/01-create-domain.t
+t/02-getmessages.t
 t/24-xml-draft-nzrs-srs-01.t
 t/24-xml-draft-nzrs-srs-01/01-Whois-Real-Resp.xml
 t/24-xml-draft-nzrs-srs-01/01-Whois-Real.xml
 t/24-xml-draft-nzrs-srs-01/01-whois.xml
 t/24-xml-draft-nzrs-srs-01/02-whois-rs.xml
 t/24-xml-draft-nzrs-srs-01/03-error-business.xml
+t/24-xml-draft-nzrs-srs-01/03-error-nodetails.xml
 t/24-xml-draft-nzrs-srs-01/04-error-xmlunwell.xml
 t/24-xml-draft-nzrs-srs-01/05-acl-whois-rs.xml
 t/24-xml-draft-nzrs-srs-01/06-epplogin.xml
@@ -105,6 +118,10 @@ t/24-xml-draft-nzrs-srs-01/16-HandleCreate-filled.xml
 t/24-xml-draft-nzrs-srs-01/16-HandleCreate-minimal.xml
 t/24-xml-draft-nzrs-srs-01/17-HandleUpdate-filled.xml
 t/24-xml-draft-nzrs-srs-01/17-HandleUpdate-minimal.xml
+t/24-xml-draft-nzrs-srs-01/20-GetMessages-classic-RS.xml
+t/24-xml-draft-nzrs-srs-01/20-GetMessages-classic.xml
+t/24-xml-draft-nzrs-srs-01/21-GetMessages-queuemode-RS.xml
+t/24-xml-draft-nzrs-srs-01/21-GetMessages-queuemode.xml
 t/24-xml-draft-nzrs-srs-01/acl-test-cases/01-lookup-client-ip.xml
 t/24-xml-draft-nzrs-srs-01/acl-test-cases/02-lookup-client-cert-domain.xml
 t/90-pod-syntax.t
