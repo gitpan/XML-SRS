@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.61.
+signed via the Module::Signature module, version 0.55.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,37 +14,32 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 bb8af1eae34cbbe39dd81589b7d8fbb993c9616f 20-GetMessages-classic-RS.xml
-SHA1 a87da3ab1ab4ddcbe8b2c2509ad57810c334e588 20-GetMessages-classic.xml
-SHA1 89eded2b7832e608b86aa1a2b321c6401c5ffee9 21-GetMessages-queuemode-RS.xml
-SHA1 68a7646ef2a01a5610f2404903f83b346926606d 21-GetMessages-queuemode.xml
 SHA1 5ebf20e77850b956f9f03833932a7005ba59f0d9 COPYING.txt
-SHA1 cb7789067214abb3878a8733ee69e3e7f2d04448 MANIFEST
+SHA1 d713513dfa535c93d29d81e4a4d6fbd94a553f31 MANIFEST
 SHA1 80559a97f45a9829d2b5fc9a70bb384ae3bb32d4 MANIFEST.SKIP
-SHA1 ef255b4a5418bde60af850b426d137d92125aef5 META.yml
-SHA1 cbcc49c72b7ae69afec2054e558c1aefcb268aa3 Makefile.PL
+SHA1 f6c7628304b062596ef754febb1f87d22ab70be5 META.yml
+SHA1 4eb3bec88da02a02570db0026244f85effbff3ae Makefile.PL
 SHA1 f70fd7e27ca116a659df6121c69c42ba1c170266 README
 SHA1 491d0d25dba5bf47edf92e065ddbca913b5d0c50 SubmittingPatches
-SHA1 1ebec4119486a032a5612a403e8d7b7be973e938 inc/Module/Install.pm
-SHA1 24038af925a69df41972971356ccce885b0fe2ad inc/Module/Install/Base.pm
-SHA1 8f96eddfef548c9328457fbb17a121631cda356b inc/Module/Install/Can.pm
-SHA1 ec29048e48edd9c9c55f9de7b773bd7c904335ad inc/Module/Install/Fetch.pm
-SHA1 0384525d85d51e99532e3ad8729d870113646d14 inc/Module/Install/Makefile.pm
-SHA1 38c657de4d91f5a60ff8e6c6f6a5547daf7c4ab2 inc/Module/Install/Metadata.pm
-SHA1 5c25f1104c0038041e3b93e0660c39171e4caf2b inc/Module/Install/Win32.pm
-SHA1 94d47349c803c4bd2a9230d25e4db0b6aaf1acd8 inc/Module/Install/WriteAll.pm
-SHA1 c23b91a41edf1517021929314a5715fbaab41b8b lib/XML/SRS.pm
-SHA1 0b435ed164406b32c2a327e30d969d165ce5a72b lib/XML/SRS/#Registrar.pm#
+SHA1 9ccd5cd71896a08c4452af712ecac132370213bb inc/Module/Install.pm
+SHA1 c49e512ab6caf6bdfd980b42ed0b3d34901a9198 inc/Module/Install/Base.pm
+SHA1 2ce37a94ac7c7a418b99a839e8a5f1e6ef3efad6 inc/Module/Install/Can.pm
+SHA1 8f91ca53c12bb609d12dd2ce6fc63d4581e390a0 inc/Module/Install/Fetch.pm
+SHA1 5cefb891354bdf6259227c56950272194fd58d1b inc/Module/Install/Makefile.pm
+SHA1 692c7572df94e8304ec61cd8d8e306df477fed0c inc/Module/Install/Metadata.pm
+SHA1 e3acd82e8b4cd43ca62dd2119402a66ad54460f0 inc/Module/Install/Win32.pm
+SHA1 49c8e7f52761eb5869618e065bb4b8e52697de36 inc/Module/Install/WriteAll.pm
+SHA1 4735672b384a2858d6adf2b3003cb5f4a1194b06 lib/XML/SRS.pm
 SHA1 d43c1947cca0112264125b99e9f91d74674d0800 lib/XML/SRS/ACL.pm
 SHA1 f703c75e67f81cd3af0056eba8037a1f624c2137 lib/XML/SRS/ACL/Entry.pm
 SHA1 bf5c08049600cefdc8e1bc6cabd2a651eb721a0b lib/XML/SRS/ACL/Query.pm
-SHA1 b9f9de1a3b16910b229c23a3168df9a601fec001 lib/XML/SRS/AckMessage.pm
+SHA1 b1e9f1617fe231b19a4019cd53fc9e8cf10213c7 lib/XML/SRS/AckMessage.pm
 SHA1 676916656e371c51348fc7f520ed01db34c7d722 lib/XML/SRS/Action.pm
 SHA1 c9e10fdc52c8c981d9295676292031e571b93b43 lib/XML/SRS/ActionResponse.pm
 SHA1 652c49c5d5b910c27b6b1680ab1be74f774b9173 lib/XML/SRS/Audit.pm
 SHA1 b430e6be39066247f0a4f495b2d931cd9e33ff12 lib/XML/SRS/AuditDetails.pm
-SHA1 05b24ac79d51067ba5af63bf97a0b6ba93d88a9b lib/XML/SRS/Changes.pod
-SHA1 ee9c6273c1f663c0f2dbe10119a7719165f45262 lib/XML/SRS/Contact.pm
+SHA1 23e0d597d31bbc908ae9596f4969d08502df27c7 lib/XML/SRS/Changes.pod
+SHA1 16db920f91da05ef4ea2ff8e266cea26a85fd30e lib/XML/SRS/Contact.pm
 SHA1 61ef259decfc5f67f58a16bad66726f9822c09eb lib/XML/SRS/Contact/Address.pm
 SHA1 edcc1d6b939924129bb618754be9f01a12bb4ffb lib/XML/SRS/Contact/Address/Filter.pm
 SHA1 e98ee2f6c3e5ec091cd89d98ce17f378bbbe72d1 lib/XML/SRS/Contact/Filter.pm
@@ -54,8 +49,9 @@ SHA1 6cb664b228c37929e7de39579debe70b06d3f87f lib/XML/SRS/Date/Range.pm
 SHA1 91ca0b974792fb5b8e8480df5e3ade9df34028f4 lib/XML/SRS/Domain.pm
 SHA1 083cd6519186d6c8097af6f816132b71dc519afe lib/XML/SRS/Domain/Create.pm
 SHA1 a0e85e62881a9b7cdd27379fdbe838653e97c3f3 lib/XML/SRS/Domain/Query.pm
+SHA1 6a8d33c2b2b6dced2bbf14414bd3f7766080b5de lib/XML/SRS/Domain/Transferred.pm
 SHA1 5af95437aaf942a9bb2e04fff3290575865d2776 lib/XML/SRS/Domain/Update.pm
-SHA1 43c29c5d58c36aa238dd3455cdcdf8698324788a lib/XML/SRS/Error.pm
+SHA1 d2165669ce1d2845c033cfc47b7f2e9b7c69ef15 lib/XML/SRS/Error.pm
 SHA1 8b2aa68c5af7ef3e28dbf509a97b8eca0510b860 lib/XML/SRS/FieldList.pm
 SHA1 d8095a3a30c7915f0e880285677888b4a0f5dc1a lib/XML/SRS/GetMessages.pm
 SHA1 2e5bc48da68b2c26e2f0e005b0759d2018a6db26 lib/XML/SRS/GetMessages/TypeFilter.pm
@@ -65,6 +61,7 @@ SHA1 67812f3c04e1afcef89aca2d704d8dbb3a808c1f lib/XML/SRS/Handle/Query.pm
 SHA1 f97f315d9b87c6bd1933a5c82fd2de7113145eaa lib/XML/SRS/Handle/Update.pm
 SHA1 14ba1c4ced5958ffec8f846e6710a688926f27ad lib/XML/SRS/Keyring.pm
 SHA1 47f15960579a8359d16a6b89b755d7ab1d4a46cb lib/XML/SRS/Message.pm
+SHA1 535d2a09532470e8974f292996a3d932a321b2f8 lib/XML/SRS/Message/Ack/Response.pm
 SHA1 255d25a82d21f6a0571b465d7387c019dff4480b lib/XML/SRS/Node.pm
 SHA1 91fc666631c403feab7d806fc2e17b2ae7135168 lib/XML/SRS/Password.pm
 SHA1 bffbcbefa276fef5a109964321a1c5674144aa4c lib/XML/SRS/Query.pm
@@ -72,8 +69,8 @@ SHA1 2e096e6e199d8f24e4c1738b8ee77244eb77b17a lib/XML/SRS/Registrar.pm
 SHA1 fd1c3bdb92942440ca1e8eb902be30212132378f lib/XML/SRS/Registrar/Query.pm
 SHA1 36675abd0b553877d7416ec20f7cd26c9584403d lib/XML/SRS/Registrar/Update.pm
 SHA1 09961f99d369ec7dd535d18b258ab5e5fafe6f34 lib/XML/SRS/Request.pm
-SHA1 d8d68a842c6fcd8937ed888ecda984e3dcfb3951 lib/XML/SRS/Response.pm
-SHA1 4d7846d92702e4a4a289f1b02ca0c3c24da332eb lib/XML/SRS/Result.pm
+SHA1 1983f9179311708d55e9ab6bf1782e83a560831c lib/XML/SRS/Response.pm
+SHA1 bf1e8fb5f07d81d71d89d9f8c484b2bb7f333dc5 lib/XML/SRS/Result.pm
 SHA1 152523ba9c14562779dd4e6aabb268b8ec366e71 lib/XML/SRS/Role.pm
 SHA1 92492a66af65efb33f5083d7a0cf4284d7690495 lib/XML/SRS/Role/List.pm
 SHA1 842b41e368bf3d6b0d767c04c8b9d3c413e5d9c9 lib/XML/SRS/Server.pm
@@ -81,9 +78,9 @@ SHA1 b2fbbd9477eeb283805231a7b48ccd2dcf13ad1f lib/XML/SRS/Server/Filter.pm
 SHA1 2c7e9d2f5aeb8cb14337dbc524e67b6b90dbc570 lib/XML/SRS/Server/Filter/List.pm
 SHA1 0270b000f26735a61984be2cc877f61b5c10572e lib/XML/SRS/Server/List.pm
 SHA1 842f0e3e10300bb08e87fdf4459463b5d60410a3 lib/XML/SRS/Time.pm
-SHA1 f5603096c60c693ca706cf16de607b3ee855bdaa lib/XML/SRS/TimeStamp.pm
-SHA1 676831ba8ebc2d8b0cf97b3a4b08acc9b373cc35 lib/XML/SRS/TimeStamp/Role.pm
-SHA1 71897b6c2f267c70cddec39abe0d9a2050a195ea lib/XML/SRS/Types.pm
+SHA1 61e7f5250f4fc2b431a8b1f77526fee95fb4187a lib/XML/SRS/TimeStamp.pm
+SHA1 ba3f45118fd5cf7052c83e1d4c4d7946f56a4521 lib/XML/SRS/TimeStamp/Role.pm
+SHA1 6cf54d50149092f05911c9393d2ec28764e0084a lib/XML/SRS/Types.pm
 SHA1 2cef088d55ccf290372f7314395669d8978f654a lib/XML/SRS/UDAIValid.pm
 SHA1 6042d85dd2ae21723351ceb193b76d6b80543bc7 lib/XML/SRS/UDAIValid/Query.pm
 SHA1 61c1a9ba66dae716aabdb0b6abad375f158c3801 lib/XML/SRS/Version.pm
@@ -91,10 +88,11 @@ SHA1 a0d4cd079c277eb2d2cf6eb0573345ca85fff2f1 lib/XML/SRS/Whois.pm
 SHA1 85302ef07800445e579385605a8d744b8fedcdb4 lib/XML/SRS/Zone.pm
 SHA1 46f278e43328d40c9ec0f266bf71caa80addbed5 lib/XML/SRS/Zone/List.pm
 SHA1 4aee94985a4bda8cd903e8462118fafea39d007c lib/XML/SRS/protocol.rnc
-SHA1 2a5f5a572349aa90fed3a46b7460aa8786da6dad make-docs.pl
 SHA1 2253068b30428cebd5c1fc2c0abd6a9f51c22308 t/00-load.t
 SHA1 4b34da8bfeabe99429891f4d4d0197e8661ed3bf t/01-create-domain.t
 SHA1 97177452dd8672c47250b32a3b0a8389b1813d1c t/02-getmessages.t
+SHA1 809d4f2d5f614381a07ac37a29b6db637e7019ba t/03-result.t
+SHA1 0d20987ebf6ae25c845e4d6a2b377b21675a6c4c t/05-timestamp.t
 SHA1 bfedb004c3e6107a76cb7cef894e8ac374899045 t/24-xml-draft-nzrs-srs-01.t
 SHA1 bb2d86de3831078a31e70fb51f80a24d53f9ec75 t/24-xml-draft-nzrs-srs-01/01-Whois-Real-Resp.xml
 SHA1 278e50ed0d5f12de0bc3ed391e1c5191ff9ee52a t/24-xml-draft-nzrs-srs-01/01-Whois-Real.xml
@@ -133,10 +131,14 @@ SHA1 96dc7c5b500aa17139678ecf522f8c06a8a4ac9d t/24-xml-draft-nzrs-srs-01/16-Hand
 SHA1 0ab464a9c08101f578d2170b264246f125eb111f t/24-xml-draft-nzrs-srs-01/16-HandleCreate-minimal.xml
 SHA1 1fe4c476ec70c5115bc578eb967540ef9011970b t/24-xml-draft-nzrs-srs-01/17-HandleUpdate-filled.xml
 SHA1 256afd2cfd4506c390d836b7b162ed3fd102b92d t/24-xml-draft-nzrs-srs-01/17-HandleUpdate-minimal.xml
-SHA1 bb8af1eae34cbbe39dd81589b7d8fbb993c9616f t/24-xml-draft-nzrs-srs-01/20-GetMessages-classic-RS.xml
+SHA1 674953c1eb323a7b2e4fa1e7d903784b58c80a67 t/24-xml-draft-nzrs-srs-01/20-GetMessages-classic-RS.xml
 SHA1 a87da3ab1ab4ddcbe8b2c2509ad57810c334e588 t/24-xml-draft-nzrs-srs-01/20-GetMessages-classic.xml
 SHA1 89eded2b7832e608b86aa1a2b321c6401c5ffee9 t/24-xml-draft-nzrs-srs-01/21-GetMessages-queuemode-RS.xml
+SHA1 0d21811f41d64064a15806e00bea5745e8e57d7d t/24-xml-draft-nzrs-srs-01/21-GetMessages-queuemode-multiple.xml
 SHA1 68a7646ef2a01a5610f2404903f83b346926606d t/24-xml-draft-nzrs-srs-01/21-GetMessages-queuemode.xml
+SHA1 ce70ee31b0a6cff7ea689ab76da7648e8b82eebd t/24-xml-draft-nzrs-srs-01/22-ackmessages-response.xml
+SHA1 cab12c71128cb6832ad85410693ce764db090b24 t/24-xml-draft-nzrs-srs-01/22-ackmessages.xml
+SHA1 4dca568447beaa922d24af073eca456d983e2999 t/24-xml-draft-nzrs-srs-01/23-DomainTransfer-Resp.xml
 SHA1 0a02041d0b0773d3a94e28e6e184f41eaecf2ed4 t/24-xml-draft-nzrs-srs-01/acl-test-cases/01-lookup-client-ip.xml
 SHA1 fc6bf8d2290a7320385d0b592078050272f2d094 t/24-xml-draft-nzrs-srs-01/acl-test-cases/02-lookup-client-cert-domain.xml
 SHA1 4897b5eb6833340f84f3151f1959df5ae5e07efe t/90-pod-syntax.t
@@ -144,9 +146,9 @@ SHA1 1b0aa297ec03576837bf66d2291907fbce73584d t/91-pod-coverage.t
 SHA1 e29db398ec80840891198c8de898bdc2b7e0ae8a t/92-license.t
 SHA1 eca58eda4d3c0533920d6af6d4398df46222c331 t/XMLTests.pm
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1.4.9 (GNU/Linux)
 
-iEYEARECAAYFAkwsO8QACgkQ/AZAiGayWEP3jQCgjHUVHCAroLNq41dxUBG2Cohu
-TuwAoI/xUhG18qrfwMD1EOawvk0dsLgY
-=K7eM
+iEYEARECAAYFAkw6hk0ACgkQ6WcJ5zlMZhGLYACfXEjvdSOB9MhcNed+tNwKBIer
+lF4An3Z2j3fPz/OucCLsZO3jTZ56/MLc
+=yHQh
 -----END PGP SIGNATURE-----
