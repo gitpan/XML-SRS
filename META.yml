@@ -3,9 +3,9 @@ abstract: 'PRANG implementation of the XML SRS protocol'
 author:
   - 'Catalyst SRS Team <team-srs@catalyst.net.nz>'
 build_requires:
-  XML::Compare: 0.03
+  XML::Compare: 0.04
 distribution_type: module
-generated_by: 'Module::Install version 0.76'
+generated_by: 'Module::Install version 0.77'
 license: artistic
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,4 +22,4 @@ requires:
   MooseX::Timestamp: 0.06
   PRANG: 0.10_01
   Regexp::Common: 0
-version: 0.05
+version: 0.06

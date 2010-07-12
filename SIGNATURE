@@ -15,21 +15,21 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 5ebf20e77850b956f9f03833932a7005ba59f0d9 COPYING.txt
-SHA1 d713513dfa535c93d29d81e4a4d6fbd94a553f31 MANIFEST
+SHA1 631537234faac0aed534c4307fd39a6038d7a703 MANIFEST
 SHA1 80559a97f45a9829d2b5fc9a70bb384ae3bb32d4 MANIFEST.SKIP
-SHA1 f6c7628304b062596ef754febb1f87d22ab70be5 META.yml
-SHA1 4eb3bec88da02a02570db0026244f85effbff3ae Makefile.PL
+SHA1 c57c1d2d06072fdb43e3c5aa010a350c4a90ea71 META.yml
+SHA1 cac1ac1c1691165c1b80265057f9a70cb33ae148 Makefile.PL
 SHA1 f70fd7e27ca116a659df6121c69c42ba1c170266 README
 SHA1 491d0d25dba5bf47edf92e065ddbca913b5d0c50 SubmittingPatches
-SHA1 9ccd5cd71896a08c4452af712ecac132370213bb inc/Module/Install.pm
-SHA1 c49e512ab6caf6bdfd980b42ed0b3d34901a9198 inc/Module/Install/Base.pm
-SHA1 2ce37a94ac7c7a418b99a839e8a5f1e6ef3efad6 inc/Module/Install/Can.pm
-SHA1 8f91ca53c12bb609d12dd2ce6fc63d4581e390a0 inc/Module/Install/Fetch.pm
-SHA1 5cefb891354bdf6259227c56950272194fd58d1b inc/Module/Install/Makefile.pm
-SHA1 692c7572df94e8304ec61cd8d8e306df477fed0c inc/Module/Install/Metadata.pm
-SHA1 e3acd82e8b4cd43ca62dd2119402a66ad54460f0 inc/Module/Install/Win32.pm
-SHA1 49c8e7f52761eb5869618e065bb4b8e52697de36 inc/Module/Install/WriteAll.pm
-SHA1 4735672b384a2858d6adf2b3003cb5f4a1194b06 lib/XML/SRS.pm
+SHA1 5c9e093b0facca46d50e3c69d5569aa7a98db0b8 inc/Module/Install.pm
+SHA1 465acb50b9006ce61f58a7bd02d0bb029ddceaa6 inc/Module/Install/Base.pm
+SHA1 8356d82167fc00550b4a3ceea8bd852a374d7509 inc/Module/Install/Can.pm
+SHA1 b47ce07fa6d6e38e3daa6cfc752b23f59a64754c inc/Module/Install/Fetch.pm
+SHA1 37ed4ccd7aba10119e6f2993b8082674ce2e5961 inc/Module/Install/Makefile.pm
+SHA1 4aa1c578faad51f31e62bed7b28d3d42b88219c3 inc/Module/Install/Metadata.pm
+SHA1 d7529d795a1304c88253b26a9089913edf31ae5e inc/Module/Install/Win32.pm
+SHA1 2a74aba5a78e7ab2776382e42106ebe941c2ac28 inc/Module/Install/WriteAll.pm
+SHA1 adbe37c4ebe188981441d98fb0aaf838d527be95 lib/XML/SRS.pm
 SHA1 d43c1947cca0112264125b99e9f91d74674d0800 lib/XML/SRS/ACL.pm
 SHA1 f703c75e67f81cd3af0056eba8037a1f624c2137 lib/XML/SRS/ACL/Entry.pm
 SHA1 bf5c08049600cefdc8e1bc6cabd2a651eb721a0b lib/XML/SRS/ACL/Query.pm
@@ -38,7 +38,7 @@ SHA1 676916656e371c51348fc7f520ed01db34c7d722 lib/XML/SRS/Action.pm
 SHA1 c9e10fdc52c8c981d9295676292031e571b93b43 lib/XML/SRS/ActionResponse.pm
 SHA1 652c49c5d5b910c27b6b1680ab1be74f774b9173 lib/XML/SRS/Audit.pm
 SHA1 b430e6be39066247f0a4f495b2d931cd9e33ff12 lib/XML/SRS/AuditDetails.pm
-SHA1 23e0d597d31bbc908ae9596f4969d08502df27c7 lib/XML/SRS/Changes.pod
+SHA1 24221518f971325805debf5bd62657d14ccd4dc6 lib/XML/SRS/Changes.pod
 SHA1 16db920f91da05ef4ea2ff8e266cea26a85fd30e lib/XML/SRS/Contact.pm
 SHA1 61ef259decfc5f67f58a16bad66726f9822c09eb lib/XML/SRS/Contact/Address.pm
 SHA1 edcc1d6b939924129bb618754be9f01a12bb4ffb lib/XML/SRS/Contact/Address/Filter.pm
@@ -148,7 +148,7 @@ SHA1 eca58eda4d3c0533920d6af6d4398df46222c331 t/XMLTests.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 
-iEYEARECAAYFAkw6hk0ACgkQ6WcJ5zlMZhGLYACfXEjvdSOB9MhcNed+tNwKBIer
-lF4An3Z2j3fPz/OucCLsZO3jTZ56/MLc
-=yHQh
+iEYEARECAAYFAkw6mGMACgkQ6WcJ5zlMZhHCOACgqu+k/fyLmWDH/LWYnog0fkTN
+llYAoLSVtYs91k4HVBqeOyVpVHf+ZM+z
+=9PIx
 -----END PGP SIGNATURE-----
