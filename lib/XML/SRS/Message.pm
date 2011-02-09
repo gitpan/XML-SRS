@@ -17,9 +17,10 @@ has_element 'result' =>
 	is => "rw",
 	isa => "XML::SRS::Result",
 	xml_nodeName => "Response",
+	required => 1,
 	;
 
-sub root_element { "Message" }
+sub root_element {"Message"}
 with 'XML::SRS::ActionResponse', 'XML::SRS::Node';
 
 1;

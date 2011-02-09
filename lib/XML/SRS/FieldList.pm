@@ -2,8 +2,9 @@
 package XML::SRS::FieldList;
 
 use Moose;
-use MooseX::Method::Signatures;
 use PRANG::Graph;
+
+use Moose::Util::TypeConstraints;
 
 has_attr 'status' =>
 	is => 'ro',
@@ -17,6 +18,13 @@ has_attr 'name_servers' =>
 	isa => 'XML::SRS::Boolean',
 	xml_required => 0,
 	xml_name => 'NameServers',
+	;
+	
+has_attr 'dns_sec' =>
+	is => 'ro',
+	isa => 'XML::SRS::Boolean',
+	xml_required => 0,
+	xml_name => 'DNSSEC',
 	;
 
 has_attr 'registrant_contact' =>
@@ -131,6 +139,23 @@ has_attr 'effective_from' =>
 	xml_name => 'EffectiveFrom',
 	;
 
+has_attr 'default_contacts' =>
+	is => 'ro',
+	isa => 'XML::SRS::Boolean',
+	xml_required => 0,
+	xml_name => 'DefaultContacts',
+	;
+
 with 'XML::SRS::Node';
+
+coerce __PACKAGE__
+	=> from 'ArrayRef'
+	=> via {
+    	my %params = map { $_ => 1 } @{$_[0]}; 
+
+    	__PACKAGE__->new(
+    		%params,
+    	);
+    };
 
 1;

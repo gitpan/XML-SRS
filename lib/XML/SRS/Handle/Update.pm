@@ -30,14 +30,6 @@ has_attr 'email' =>
 	predicate => "has_email",
 	;
 
-has_attr 'action_id' =>
-	is => "ro",
-	isa => "Str",
-	xml_name => "ActionId",
-	xml_required => 0,
-	predicate => "has_action_id",
-	;
-
 has_attr 'delete' =>
 	is => 'rw',
 	isa => 'PRANG::XMLSchema::boolean',
@@ -83,7 +75,7 @@ has_element 'audit' =>
 
 with 'XML::SRS::Audit';
 
-sub root_element { 'HandleUpdate' }
+sub root_element {'HandleUpdate'}
 with 'XML::SRS::Action';
 
 1;

@@ -27,13 +27,6 @@ has_attr 'email' =>
 	predicate => "has_email",
 	;
 
-has_attr 'action_id' =>
-	is => "ro",
-	isa => "Str",
-	xml_name => "ActionId",
-	predicate => "has_action_id",
-	;
-
 # elements
 has_element 'address' =>
 	is => "ro",
@@ -68,7 +61,7 @@ has_element 'audit' =>
 
 with 'XML::SRS::Audit';
 
-sub root_element { 'HandleCreate' }
+sub root_element {'HandleCreate'}
 with 'XML::SRS::Action';
 
 1;

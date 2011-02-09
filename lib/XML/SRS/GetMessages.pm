@@ -5,16 +5,9 @@ use Moose;
 use PRANG::Graph;
 use XML::SRS::Types;
 
-sub root_element { 
-  "GetMessages";
+sub root_element {
+	"GetMessages";
 }
-
-has_attr 'query_id' =>
-	is => "ro",
-	isa => "XML::SRS::UID",
-	xml_name => "QryId",
-	predicate => "has_query_id",
-	;
 
 has_attr 'originating_registrar' =>
 	is => "ro",
@@ -49,24 +42,32 @@ has_attr 'max_results' =>
 	;
 
 use XML::SRS::GetMessages::TypeFilter;
+use Moose::Util::TypeConstraints;
+
+# For some reason, we have to create this subtype
+#  Supposedly, it should work without it if we define the coercion
+#  after the 'has_element', but that generated a warning. Possible Moose bug?
+subtype 'TypeFilterArrayRef' =>
+    as 'ArrayRef[XML::SRS::GetMessages::TypeFilter]';
+
+coerce 'TypeFilterArrayRef'
+	=> from "ArrayRef[Str]"
+	=> via {
+	[   map {
+			XML::SRS::GetMessages::TypeFilter->new(
+				Type => $_,
+			);
+			} @$_
+	];
+};
+
 has_element "type_filter" =>
 	is => "ro",
-	isa => "ArrayRef[XML::SRS::GetMessages::TypeFilter]",
+	isa => "TypeFilterArrayRef",
 	xml_min => 0,
 	xml_nodeName => "TypeFilter",
 	coerce => 1,
 	;
-
-use Moose::Util::TypeConstraints;
-coerce 'ArrayRef[XML::SRS::GetMessages::TypeFilter]'
-	=> from "ArrayRef[Str]"
-	=> via {
-		[ map {
-			XML::SRS::GetMessages::TypeFilter->new(
-				Type => $_,
-			       );
-		} @$_ ];
-	};
 
 with 'XML::SRS::Query';
 1;

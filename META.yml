@@ -3,28 +3,22 @@ abstract: 'PRANG implementation of the XML SRS protocol'
 author:
   - 'Catalyst SRS Team <team-srs@catalyst.net.nz>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
-  XML::Compare: 0.03
+  XML::Compare: 0.04
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 0.92'
-license: artistic
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200003, CPAN::Meta::Converter version 2.110390'
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: XML-SRS
-no_index:
-  directory:
-    - inc
-    - t
 requires:
   Crypt::Password: 0.05
-  Moose: 0.54
-  MooseX::Method::Signatures: 0
-  MooseX::Timestamp: 0
-  PRANG: 0.10_01
+  Moose: 0.92
+  MooseX::Aliases: 0.08
+  MooseX::Params::Validate: 0.15
+  MooseX::Timestamp: 0.06
+  PRANG: 0.12
   Regexp::Common: 0
-resources:
-  license: http://opensource.org/licenses/artistic-license.php
-version: 0.04_01
+version: 0.07
