@@ -1,5 +1,8 @@
 
 package XML::SRS::Error;
+BEGIN {
+  $XML::SRS::Error::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

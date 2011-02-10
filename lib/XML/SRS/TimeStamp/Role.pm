@@ -1,5 +1,8 @@
 
 package XML::SRS::TimeStamp::Role;
+BEGIN {
+  $XML::SRS::TimeStamp::Role::VERSION = '0.08';
+}
 
 use 5.010;
 use XML::SRS::Date;

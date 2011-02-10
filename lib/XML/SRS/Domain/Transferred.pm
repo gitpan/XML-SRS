@@ -1,5 +1,8 @@
 
 package XML::SRS::Domain::Transferred;
+BEGIN {
+  $XML::SRS::Domain::Transferred::VERSION = '0.08';
+}
 use Moose;
 use PRANG::Graph;
 use XML::SRS::Types;

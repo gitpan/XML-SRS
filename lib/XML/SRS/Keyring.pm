@@ -1,5 +1,8 @@
 
 package XML::SRS::Keyring;
+BEGIN {
+  $XML::SRS::Keyring::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

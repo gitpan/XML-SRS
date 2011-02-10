@@ -1,5 +1,8 @@
 
 package XML::SRS::GetMessages;
+BEGIN {
+  $XML::SRS::GetMessages::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

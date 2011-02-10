@@ -1,5 +1,8 @@
 
 package XML::SRS::Zone::List;
+BEGIN {
+  $XML::SRS::Zone::List::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

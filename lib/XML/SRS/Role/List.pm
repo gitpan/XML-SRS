@@ -1,5 +1,8 @@
 
 package XML::SRS::Role::List;
+BEGIN {
+  $XML::SRS::Role::List::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

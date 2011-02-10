@@ -1,5 +1,8 @@
 
 package XML::SRS::Handle;
+BEGIN {
+  $XML::SRS::Handle::VERSION = '0.08';
+}
 use Moose;
 use PRANG::Graph;
 use XML::SRS::Types;

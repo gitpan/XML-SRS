@@ -1,5 +1,8 @@
 
 package XML::SRS::UDAIValid::Query;
+BEGIN {
+  $XML::SRS::UDAIValid::Query::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

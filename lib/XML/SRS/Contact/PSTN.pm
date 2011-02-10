@@ -1,5 +1,8 @@
 
 package XML::SRS::Contact::PSTN;
+BEGIN {
+  $XML::SRS::Contact::PSTN::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

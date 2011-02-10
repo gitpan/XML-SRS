@@ -1,5 +1,8 @@
 
 package XML::SRS::Audit;
+BEGIN {
+  $XML::SRS::Audit::VERSION = '0.08';
+}
 
 use Moose::Role;
 use PRANG::Graph;

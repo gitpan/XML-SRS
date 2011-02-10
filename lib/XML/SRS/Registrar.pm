@@ -1,5 +1,8 @@
 
 package XML::SRS::Registrar;
+BEGIN {
+  $XML::SRS::Registrar::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

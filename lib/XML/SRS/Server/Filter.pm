@@ -1,5 +1,8 @@
 
 package XML::SRS::Server::Filter;
+BEGIN {
+  $XML::SRS::Server::Filter::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

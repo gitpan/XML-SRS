@@ -1,5 +1,8 @@
 
 package XML::SRS::FieldList;
+BEGIN {
+  $XML::SRS::FieldList::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

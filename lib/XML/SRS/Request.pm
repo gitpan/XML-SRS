@@ -1,5 +1,8 @@
 
 package XML::SRS::Request;
+BEGIN {
+  $XML::SRS::Request::VERSION = '0.08';
+}
 
 use Moose;
 use Moose::Util::TypeConstraints;

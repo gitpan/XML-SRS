@@ -1,5 +1,8 @@
 
 package XML::SRS::AckMessage;
+BEGIN {
+  $XML::SRS::AckMessage::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

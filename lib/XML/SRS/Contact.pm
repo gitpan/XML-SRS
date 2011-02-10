@@ -1,5 +1,8 @@
 
 package XML::SRS::Contact;
+BEGIN {
+  $XML::SRS::Contact::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

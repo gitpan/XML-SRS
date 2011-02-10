@@ -1,5 +1,8 @@
 
 package XML::SRS::Types;
+BEGIN {
+  $XML::SRS::Types::VERSION = '0.08';
+}
 
 use 5.010;
 use strict;

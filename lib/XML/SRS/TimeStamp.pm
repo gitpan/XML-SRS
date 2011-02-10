@@ -1,5 +1,8 @@
 
 package XML::SRS::TimeStamp;
+BEGIN {
+  $XML::SRS::TimeStamp::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

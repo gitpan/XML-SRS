@@ -1,5 +1,8 @@
 
 package XML::SRS::Whois;
+BEGIN {
+  $XML::SRS::Whois::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

@@ -1,5 +1,8 @@
 
 package XML::SRS::Action;
+BEGIN {
+  $XML::SRS::Action::VERSION = '0.08';
+}
 
 use Moose::Role;
 use PRANG::Graph;

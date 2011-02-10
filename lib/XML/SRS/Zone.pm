@@ -1,5 +1,8 @@
 
-package XML::SRS::Zone;   # aka "Allowed2LD"
+package XML::SRS::Zone;
+BEGIN {
+  $XML::SRS::Zone::VERSION = '0.08';
+}   # aka "Allowed2LD"
 
 use Moose;
 use PRANG::Graph;

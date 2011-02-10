@@ -23,14 +23,14 @@ my %WriteMakefileArgs = (
   'NAME' => 'XML::SRS',
   'PREREQ_PM' => {
     'Crypt::Password' => '0.05',
-    'Moose' => '0.92',
+    'Moose' => '1.21',
     'MooseX::Aliases' => '0.08',
     'MooseX::Params::Validate' => '0.15',
     'MooseX::Timestamp' => '0.06',
-    'PRANG' => '0.12',
+    'PRANG' => '0.14',
     'Regexp::Common' => '0'
   },
-  'VERSION' => '0.07',
+  'VERSION' => '0.08',
   'test' => {
     'TESTS' => 't/*.t'
   }

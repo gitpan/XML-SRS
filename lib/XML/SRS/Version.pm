@@ -1,5 +1,8 @@
 
 package XML::SRS::Version;
+BEGIN {
+  $XML::SRS::Version::VERSION = '0.08';
+}
 use Moose::Role;
 use PRANG::Graph;
 use MooseX::Params::Validate;

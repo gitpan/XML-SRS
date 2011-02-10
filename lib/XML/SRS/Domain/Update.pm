@@ -1,4 +1,7 @@
 package XML::SRS::Domain::Update;
+BEGIN {
+  $XML::SRS::Domain::Update::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;
@@ -161,7 +164,7 @@ XML::SRS::Domain::Update - Class representing an SRS DomainUpdate transaction
 
 =head1 SYNOPSIS
 
-  my $whois = XML::SRS::DomainUpdate->new(
+  my $update = XML::SRS::DomainUpdate->new(
         domain_name_filter => 'foo.co.nz',
         term => 1,
         action_id => "1234",

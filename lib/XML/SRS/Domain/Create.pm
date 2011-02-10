@@ -1,4 +1,7 @@
 package XML::SRS::Domain::Create;
+BEGIN {
+  $XML::SRS::Domain::Create::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;
@@ -95,7 +98,7 @@ XML::SRS::Domain::Create - Class representing an SRS DomainCreate transaction
 
 =head1 SYNOPSIS
 
-  my $whois = XML::SRS::DomainCreate->new(
+  my $create = XML::SRS::DomainCreate->new(
         domain_name => 'foo.co.nz',
         term => 1,
         action_id => "1234",

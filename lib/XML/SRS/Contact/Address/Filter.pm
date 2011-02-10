@@ -1,5 +1,8 @@
 
 package XML::SRS::Contact::Address::Filter;
+BEGIN {
+  $XML::SRS::Contact::Address::Filter::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

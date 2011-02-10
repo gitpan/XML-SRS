@@ -1,5 +1,8 @@
 
 package XML::SRS::ACL::Query;
+BEGIN {
+  $XML::SRS::ACL::Query::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

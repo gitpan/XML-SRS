@@ -1,4 +1,7 @@
 package XML::SRS::Message::Ack::Response;
+BEGIN {
+  $XML::SRS::Message::Ack::Response::VERSION = '0.08';
+}
 
 # response to a GetMessages QueueMode=1
 

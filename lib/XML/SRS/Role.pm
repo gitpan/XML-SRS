@@ -1,5 +1,8 @@
 
-package XML::SRS::Role;   # aka "Allowed2LD"
+package XML::SRS::Role;
+BEGIN {
+  $XML::SRS::Role::VERSION = '0.08';
+}   # aka "Allowed2LD"
 
 use Moose;
 use PRANG::Graph;

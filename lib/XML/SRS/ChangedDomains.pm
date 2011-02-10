@@ -1,5 +1,8 @@
 
 package XML::SRS::ChangedDomains;
+BEGIN {
+  $XML::SRS::ChangedDomains::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;

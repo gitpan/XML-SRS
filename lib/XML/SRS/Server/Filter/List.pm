@@ -1,5 +1,8 @@
 
 package XML::SRS::Server::Filter::List;
+BEGIN {
+  $XML::SRS::Server::Filter::List::VERSION = '0.08';
+}
 
 use Moose;
 use PRANG::Graph;
@@ -12,7 +15,7 @@ has_element 'server_filter' =>
 	is => 'ro',
 	isa => 'ArrayRef[XML::SRS::Server::Filter]',
 	xml_nodeName => 'ServerFilter',
-	coerce => 1,
+	coerce => 0,
 	required => 1,
 	;
 

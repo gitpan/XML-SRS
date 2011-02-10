@@ -1,5 +1,8 @@
 
 package XML::SRS::Date;
+BEGIN {
+  $XML::SRS::Date::VERSION = '0.08';
+}
 
 use Moose::Role;
 use PRANG::Graph;

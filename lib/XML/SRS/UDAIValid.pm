@@ -1,5 +1,8 @@
 
 package XML::SRS::UDAIValid;
+BEGIN {
+  $XML::SRS::UDAIValid::VERSION = '0.08';
+}
 use Moose;
 use PRANG::Graph;
 use XML::SRS::Types;
