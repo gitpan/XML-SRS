@@ -1,7 +1,7 @@
 
 package XML::SRS::Date;
 BEGIN {
-  $XML::SRS::Date::VERSION = '0.08';
+  $XML::SRS::Date::VERSION = '0.09';
 }
 
 use Moose::Role;

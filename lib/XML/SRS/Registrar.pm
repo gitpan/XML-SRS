@@ -1,7 +1,7 @@
 
 package XML::SRS::Registrar;
 BEGIN {
-  $XML::SRS::Registrar::VERSION = '0.08';
+  $XML::SRS::Registrar::VERSION = '0.09';
 }
 
 use Moose;

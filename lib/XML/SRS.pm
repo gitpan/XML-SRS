@@ -1,7 +1,7 @@
 
 package XML::SRS;
 BEGIN {
-  $XML::SRS::VERSION = '0.08';
+  $XML::SRS::VERSION = '0.09';
 }
 
 BEGIN { our $PROTOCOL_VERSION = "5.0" }

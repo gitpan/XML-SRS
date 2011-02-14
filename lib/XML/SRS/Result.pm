@@ -3,7 +3,7 @@
 # with 'Response', which is actually 'NZSRSResponse'
 package XML::SRS::Result;
 BEGIN {
-  $XML::SRS::Result::VERSION = '0.08';
+  $XML::SRS::Result::VERSION = '0.09';
 }
 
 use Carp;

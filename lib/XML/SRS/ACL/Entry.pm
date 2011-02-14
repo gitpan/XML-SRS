@@ -1,7 +1,7 @@
 
 package XML::SRS::ACL::Entry;
 BEGIN {
-  $XML::SRS::ACL::Entry::VERSION = '0.08';
+  $XML::SRS::ACL::Entry::VERSION = '0.09';
 }
 
 use Moose;

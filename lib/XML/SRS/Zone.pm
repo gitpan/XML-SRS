@@ -1,7 +1,7 @@
 
 package XML::SRS::Zone;
 BEGIN {
-  $XML::SRS::Zone::VERSION = '0.08';
+  $XML::SRS::Zone::VERSION = '0.09';
 }   # aka "Allowed2LD"
 
 use Moose;

@@ -1,7 +1,7 @@
 
 package XML::SRS::Zone::List;
 BEGIN {
-  $XML::SRS::Zone::List::VERSION = '0.08';
+  $XML::SRS::Zone::List::VERSION = '0.09';
 }
 
 use Moose;

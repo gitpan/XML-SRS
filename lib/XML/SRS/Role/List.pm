@@ -1,7 +1,7 @@
 
 package XML::SRS::Role::List;
 BEGIN {
-  $XML::SRS::Role::List::VERSION = '0.08';
+  $XML::SRS::Role::List::VERSION = '0.09';
 }
 
 use Moose;

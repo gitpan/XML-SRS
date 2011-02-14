@@ -1,7 +1,7 @@
 
 package XML::SRS::ChangedDomains;
 BEGIN {
-  $XML::SRS::ChangedDomains::VERSION = '0.08';
+  $XML::SRS::ChangedDomains::VERSION = '0.09';
 }
 
 use Moose;

@@ -1,7 +1,7 @@
 
 package XML::SRS::GetMessages;
 BEGIN {
-  $XML::SRS::GetMessages::VERSION = '0.08';
+  $XML::SRS::GetMessages::VERSION = '0.09';
 }
 
 use Moose;

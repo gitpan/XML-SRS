@@ -1,7 +1,7 @@
 
 package XML::SRS::AuditDetails;
 BEGIN {
-  $XML::SRS::AuditDetails::VERSION = '0.08';
+  $XML::SRS::AuditDetails::VERSION = '0.09';
 }
 
 use Moose;

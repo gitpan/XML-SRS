@@ -1,7 +1,7 @@
 
 package XML::SRS::UDAIValid::Query;
 BEGIN {
-  $XML::SRS::UDAIValid::Query::VERSION = '0.08';
+  $XML::SRS::UDAIValid::Query::VERSION = '0.09';
 }
 
 use Moose;

@@ -1,7 +1,7 @@
 
 package XML::SRS::Contact::Address::Filter;
 BEGIN {
-  $XML::SRS::Contact::Address::Filter::VERSION = '0.08';
+  $XML::SRS::Contact::Address::Filter::VERSION = '0.09';
 }
 
 use Moose;

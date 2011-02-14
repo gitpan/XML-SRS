@@ -1,6 +1,6 @@
 package XML::SRS::Domain::Update;
 BEGIN {
-  $XML::SRS::Domain::Update::VERSION = '0.08';
+  $XML::SRS::Domain::Update::VERSION = '0.09';
 }
 
 use Moose;

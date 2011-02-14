@@ -1,7 +1,7 @@
 
 package XML::SRS::Version;
 BEGIN {
-  $XML::SRS::Version::VERSION = '0.08';
+  $XML::SRS::Version::VERSION = '0.09';
 }
 use Moose::Role;
 use PRANG::Graph;

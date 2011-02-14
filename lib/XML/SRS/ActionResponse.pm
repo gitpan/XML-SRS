@@ -1,7 +1,7 @@
 
 package XML::SRS::ActionResponse;
 BEGIN {
-  $XML::SRS::ActionResponse::VERSION = '0.08';
+  $XML::SRS::ActionResponse::VERSION = '0.09';
 }
 
 use Moose::Role;

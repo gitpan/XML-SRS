@@ -1,7 +1,7 @@
 
 package XML::SRS::Whois;
 BEGIN {
-  $XML::SRS::Whois::VERSION = '0.08';
+  $XML::SRS::Whois::VERSION = '0.09';
 }
 
 use Moose;

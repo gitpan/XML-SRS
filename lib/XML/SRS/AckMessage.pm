@@ -1,7 +1,7 @@
 
 package XML::SRS::AckMessage;
 BEGIN {
-  $XML::SRS::AckMessage::VERSION = '0.08';
+  $XML::SRS::AckMessage::VERSION = '0.09';
 }
 
 use Moose;

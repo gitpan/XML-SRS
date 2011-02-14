@@ -1,7 +1,7 @@
 
 package XML::SRS::ACL::Query;
 BEGIN {
-  $XML::SRS::ACL::Query::VERSION = '0.08';
+  $XML::SRS::ACL::Query::VERSION = '0.09';
 }
 
 use Moose;

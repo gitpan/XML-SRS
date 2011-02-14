@@ -1,7 +1,7 @@
 
 package XML::SRS::Server;
 BEGIN {
-  $XML::SRS::Server::VERSION = '0.08';
+  $XML::SRS::Server::VERSION = '0.09';
 }
 
 use Moose;

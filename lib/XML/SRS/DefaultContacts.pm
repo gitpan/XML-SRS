@@ -1,6 +1,6 @@
 package XML::SRS::DefaultContacts;
 BEGIN {
-  $XML::SRS::DefaultContacts::VERSION = '0.08';
+  $XML::SRS::DefaultContacts::VERSION = '0.09';
 }
 
 use Moose;

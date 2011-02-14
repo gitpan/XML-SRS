@@ -1,7 +1,7 @@
 
 package XML::SRS::GetMessages::TypeFilter;
 BEGIN {
-  $XML::SRS::GetMessages::TypeFilter::VERSION = '0.08';
+  $XML::SRS::GetMessages::TypeFilter::VERSION = '0.09';
 }
 
 use Moose;

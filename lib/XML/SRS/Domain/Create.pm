@@ -1,6 +1,6 @@
 package XML::SRS::Domain::Create;
 BEGIN {
-  $XML::SRS::Domain::Create::VERSION = '0.08';
+  $XML::SRS::Domain::Create::VERSION = '0.09';
 }
 
 use Moose;

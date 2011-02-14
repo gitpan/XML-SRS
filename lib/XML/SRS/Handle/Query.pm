@@ -1,7 +1,7 @@
 
 package XML::SRS::Handle::Query;
 BEGIN {
-  $XML::SRS::Handle::Query::VERSION = '0.08';
+  $XML::SRS::Handle::Query::VERSION = '0.09';
 }
 
 use Moose;

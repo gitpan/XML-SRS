@@ -1,7 +1,7 @@
 
 package XML::SRS::Contact;
 BEGIN {
-  $XML::SRS::Contact::VERSION = '0.08';
+  $XML::SRS::Contact::VERSION = '0.09';
 }
 
 use Moose;

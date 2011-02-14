@@ -1,7 +1,7 @@
 
 package XML::SRS::FieldList;
 BEGIN {
-  $XML::SRS::FieldList::VERSION = '0.08';
+  $XML::SRS::FieldList::VERSION = '0.09';
 }
 
 use Moose;

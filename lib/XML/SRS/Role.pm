@@ -1,7 +1,7 @@
 
 package XML::SRS::Role;
 BEGIN {
-  $XML::SRS::Role::VERSION = '0.08';
+  $XML::SRS::Role::VERSION = '0.09';
 }   # aka "Allowed2LD"
 
 use Moose;

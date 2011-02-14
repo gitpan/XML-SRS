@@ -1,7 +1,7 @@
 
 package XML::SRS::Keyring;
 BEGIN {
-  $XML::SRS::Keyring::VERSION = '0.08';
+  $XML::SRS::Keyring::VERSION = '0.09';
 }
 
 use Moose;

@@ -1,7 +1,7 @@
 
 package XML::SRS::TimeStamp;
 BEGIN {
-  $XML::SRS::TimeStamp::VERSION = '0.08';
+  $XML::SRS::TimeStamp::VERSION = '0.09';
 }
 
 use Moose;

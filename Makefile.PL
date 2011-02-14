@@ -22,7 +22,6 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'XML::SRS',
   'PREREQ_PM' => {
-    'Crypt::Password' => '0.05',
     'Moose' => '1.21',
     'MooseX::Aliases' => '0.08',
     'MooseX::Params::Validate' => '0.15',
@@ -30,7 +29,7 @@ my %WriteMakefileArgs = (
     'PRANG' => '0.14',
     'Regexp::Common' => '0'
   },
-  'VERSION' => '0.08',
+  'VERSION' => '0.09',
   'test' => {
     'TESTS' => 't/*.t'
   }

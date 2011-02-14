@@ -1,7 +1,7 @@
 
 package XML::SRS::Message;
 BEGIN {
-  $XML::SRS::Message::VERSION = '0.08';
+  $XML::SRS::Message::VERSION = '0.09';
 }
 
 # response to a GetMessages QueueMode=1

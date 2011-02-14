@@ -1,7 +1,7 @@
 
 package XML::SRS::Server::Filter;
 BEGIN {
-  $XML::SRS::Server::Filter::VERSION = '0.08';
+  $XML::SRS::Server::Filter::VERSION = '0.09';
 }
 
 use Moose;

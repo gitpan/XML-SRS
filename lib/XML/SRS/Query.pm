@@ -1,7 +1,7 @@
 
 package XML::SRS::Query;
 BEGIN {
-  $XML::SRS::Query::VERSION = '0.08';
+  $XML::SRS::Query::VERSION = '0.09';
 }
 
 use Moose::Role;

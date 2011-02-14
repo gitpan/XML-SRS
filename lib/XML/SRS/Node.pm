@@ -1,7 +1,7 @@
 
 package XML::SRS::Node;
 BEGIN {
-  $XML::SRS::Node::VERSION = '0.08';
+  $XML::SRS::Node::VERSION = '0.09';
 }
 
 use Moose::Role;

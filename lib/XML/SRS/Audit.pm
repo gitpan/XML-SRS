@@ -1,7 +1,7 @@
 
 package XML::SRS::Audit;
 BEGIN {
-  $XML::SRS::Audit::VERSION = '0.08';
+  $XML::SRS::Audit::VERSION = '0.09';
 }
 
 use Moose::Role;
